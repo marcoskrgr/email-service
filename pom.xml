@@ -12,7 +12,7 @@
 	<artifactId>email-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>email-service</name>
-	<description>E-mail sender microsservice</description>
+	<description>E-mail sender microservice</description>
 	<url/>
 	<licenses>
 		<license/>

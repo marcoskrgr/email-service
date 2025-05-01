@@ -34,3 +34,5 @@ build/
 
 # Ignorar configs locais
 src/main/resources/application-local.properties
+
+.env
