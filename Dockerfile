@@ -16,6 +16,10 @@ RUN ./mvnw clean package -DskipTests
 FROM eclipse-temurin:24-jdk
 WORKDIR /app
 
+# Instala curl para health
+USER root
+RUN apt-get update && apt-get install -y curl
+
 # Criar usuário dedicado para rodar a aplicação
 RUN groupadd -r appgroup && useradd -r -g appgroup appuser
 USER appuser
